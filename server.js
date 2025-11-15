@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', true);
 
 // Connection string MongoDB Atlas
-const mongoURI = 'mongodb+srv://Zayyan_db_user:user123covid19@cluster0.rkmops1.mongodb.net/mydatabase?retryWrites=true&w=majority';
+const mongoURI = mongodb+srv://Zayyan_db_user:user123covid19@cluster0.rkmops1.mongodb.net/jagaresikDatabase?retryWrites=true&w=majority
 
 // Connect ke MongoDB Atlas
 mongoose.connect(mongoURI, {
